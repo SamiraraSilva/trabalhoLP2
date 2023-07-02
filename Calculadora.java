@@ -15,6 +15,7 @@ import java.util.Scanner;
          double num1;
          double num2;
          double select;
+         double result;
 
       //metodo principal
 
@@ -38,7 +39,9 @@ import java.util.Scanner;
         System.out.println("Entre com o segundo número:  ");
          double num2 =a.nextDouble();
         select = a.nextDouble();
-
+                                             
+           double result = 0;
+                                             
             switch(select){
        
                 case 1:
@@ -68,7 +71,7 @@ import java.util.Scanner;
                     default : System.out.println("Entre com o numero de 1 a 4 sendo para: 1- Soma, 2-subtração, 3-multiplicação, 4-divisão.");
                 }
             
-
+            System.out.println(" o resultado da operação é:   " +result );
 
                                             }
 
