@@ -53,64 +53,23 @@ import java.util.Scanner;
                         
                         sub = num1 - num2;
                         System.out.println("a subtração é: "+sub);
-                
-
-
-                    
             
                     case 3:  
                         
-                        
                         mult = num1 * num2;
                         System.out.println("a multiplição é: "+mult);
-                
-
-
-                    
                     
                     case 4: 
                         
                         div = num1 / num2;
                         System.out.println("a divisão é: "+div);
-                
+              
 
-                    
-
-                    default : System.out.println("Entre com o numero de 1 a 4 sendo: 1- Soma, 2-subtração, 3-multiplicação, 4-divisão.");
+                    default : System.out.println("Entre com o numero de 1 a 4 sendo para: 1- Soma, 2-subtração, 3-multiplicação, 4-divisão.");
                 }
             
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-
-      }
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                            }
 
  }
